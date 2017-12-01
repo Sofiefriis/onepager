@@ -1,0 +1,678 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    }
+
+@media screen and (max-width: 1000px) {    
+
+    header {
+        background-color: white;
+        height: 200px;
+    }
+
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 26px;
+        color: #36a9e1;
+        margin: 50px 40px 50px;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        color: #36a9e1;
+        margin-right: 50px;
+        margin-left: 50px;
+        text-align: center;
+        font-weight: bold;
+        padding-bottom: 60px;
+    }
+    nav {
+        font-family: 'Montserrat', sans-serif;
+        display:inline-block;
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    li {
+        display:inline;
+        text-decoration: none;
+
+    }
+
+    li a {
+        text-decoration: none;
+        margin: 10px;
+        font-size: 14px;
+        color: grey;
+
+    }
+
+    ul {
+    display: inline;
+    }
+
+    #vandstart {
+           background-image: url(vand_top.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: auto;
+        width: 100%;
+
+       
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+    #slider {
+        background-image: url(banner.jpg);
+        height: auto;
+        background-color: darkblue;
+        padding-top: 50px;
+        padding-bottom: 60px;
+        display: none;
+        
+    }
+
+    #vandmidt {
+        background-image: url(vand_midt.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: auto;
+        width: 100%;
+        display: none;
+
+       
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+    }
+    #intro {
+        background-image: url(wcrens.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 600px;
+        padding-top: 80px;
+        padding-bottom: 85px;
+        
+    }
+
+    #anmeldelser {
+      background-image: url(vand_midt.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: auto;
+         padding-top: 70px;
+        padding-bottom: 80px;
+        
+        
+    }
+
+    #vandlås {
+          background-image: url(Vandl%C3%A5s.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 500px;
+       
+
+        
+        padding-top: 120px;
+        padding-bottom: 100px;
+        
+    }
+    #duft {
+         background-image: url(vand_midt.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: auto;
+        width: 100%;
+
+       
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+    }
+
+    #svanemærket {
+        background-image: url(natur.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: auto;
+        width: 100%;
+
+        
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+
+    #vandslut {
+        background-image: url(vand_bund.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: auto;
+        width: 100%;
+
+       
+        padding-top: 80px;
+        padding-bottom: 40px;  
+        
+    }
+
+    #footer {
+        height: 150px;
+        background-color: #878787;
+        padding-top: 20px;
+       
+    }
+
+       #footer p {
+        text-align: center;
+        color: white;
+        font-size: 13px;
+    }
+
+    .intro_text {
+        background-color: white;
+        opacity: 0.9;
+        height: auto;
+        background-position: top;
+        
+       
+        
+    }
+    .vandlås_text {
+         background-color: white;
+        opacity: 0.9;
+        height: auto;
+        background-position: top;
+        
+    }
+
+    .natur_text {
+      background-color: white;
+        opacity: 0.9;
+        height: auto;
+        background-position: top;
+    }
+    .img {
+        margin-left: 35%;
+    }
+
+    .marine_text {
+       background-color: black;
+        opacity: 0.7;
+        height: auto;
+        background-position: top;  
+    }
+
+    .anmeldelser_text {
+         background-color: black;
+        opacity: 0.7;
+        height: auto;
+        background-position: top;  
+    }
+
+    .logo {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    .vandlås_header {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+    
+    body {
+        margin: 0px;
+        padding: 0px;
+        
+    }
+
+    header {
+        background-color: white;
+        height: 200px;
+    }
+
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+        color: #36a9e1;
+        margin: 50px 40px 50px;
+        text-align: left;
+        padding-top: 40px;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        color: #36a9e1;
+        margin-right: 100px;
+        margin-left: 50px;
+        text-align: left;
+        font-weight: bold;
+        padding-bottom: 30px;
+    }
+    nav {
+        font-family: 'Montserrat', sans-serif;
+        display: inline;
+         margin: auto;
+         float: right;
+
+    }
+
+    li {
+        display:inline;
+        text-decoration: none;
+    }
+
+    li a {
+        text-decoration: none;
+        font-size: 12px;
+        color: grey;
+    }
+
+    ul {
+    display: inline;
+    }
+
+    #vandstart {
+        background-image: url(vand_top.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: auto;
+        width: 100%;
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+
+    #slider {
+        background-image: url(banner.jpg);
+        height: 500px;
+        background-color: darkblue;
+        padding-top: 50px;
+        padding-bottom: 60px;
+        display: none;
+    }
+
+    #vandmidt {
+        background-image: url(vand_midt.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: auto;
+        width: 100%;
+
+       
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #intro {
+        background-image: url(wcrens.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: auto;
+        padding-top: 330px;
+        padding-bottom: 0px;   
+    }
+
+    #anmeldelser {
+      background-image: url(vand_midt.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: auto;
+         padding-top: 80px;
+        padding-bottom: 10px;
+    }
+
+    #vandlås {
+          background-image: url(vandlås.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 500px;
+        padding-top: 150px;
+        padding-bottom: 80px;
+    }
+
+    #duft {
+         background-image: url(vand_midt.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: auto;
+        width: 100%;
+        padding-top: 60px;
+        padding-bottom: 1px;
+    }
+
+    #svanemærket {
+        background-image: url(natur.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: auto;
+        width: 100%;
+
+        
+        padding-top: 200px;
+        padding-bottom: 0px;
+    }
+
+    #vandslut {
+        background-image: url(vand_bund.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: auto;
+        width: 100%;
+        padding-top: 80px;
+        padding-bottom: 40px;  
+    }
+
+   #footer {
+        height: 150px;
+        background-color: #878787;
+        padding-top: 20px;
+    }
+
+    #footer p {
+        text-align: center;
+        color: white;
+        font-size: 13px;
+    }
+
+    .intro_text {
+        background-color: white;
+        opacity: 0.9;
+        height: auto;
+        background-position: top;
+        padding-bottom: 1px;
+    }
+
+    .vandlås_text {
+         background-color: white;
+        opacity: 0.9;
+        height: auto;
+        background-position: bottom;
+        margin-top: 380px
+    }
+
+    .natur_text {
+      background-color: white;
+        opacity: 0.9;
+        height: auto;
+        background-position: bottom;
+        padding-bottom: 1px;
+    }
+
+     .img {
+        margin-left: 40%;
+    }
+
+    .marine_text {
+       background-color: black;
+        opacity: 0.7;
+        height: auto;
+        background-position: top;
+    }
+
+    .anmeldelser_text {
+         background-color: black;
+        opacity: 0.7;
+        height: auto;
+        background-position: top; 
+        
+    }   
+
+    .logo {
+        height: 100px;
+        width: auto;
+        margin: auto;
+    }
+
+    .vandlås_header {
+        display: none;
+    }
+    
+
+}
+
+@media screen and (min-width: 1000px){
+
+    body {
+    margin: 0px;
+    padding: 0px;
+    
+    }
+
+    header {
+        height: 180px;
+        background-color: white;
+    }
+
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        color: #36a9e1;
+        margin: 50px 50px 50px 50px;
+        text-align: center;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        color: #36a9e1;
+        margin: 50px 100px 50px 100px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    nav {
+        float: right;
+        font-family: 'Montserrat', sans-serif;
+        display:inline;
+        font-size: 12px;
+        margin: 75px;
+    }
+
+    li {
+        display:inline;
+        text-decoration: none;
+    }
+
+    li a {
+        text-decoration: none;
+        margin: 10px;
+        color: grey;
+    }
+
+    ul {
+    display: inline;
+    }
+
+    #vandstart {
+        background-image: url(vand_top.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: auto;
+        width: 100%;
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+
+    #slider {
+        background-image: url(banner.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 500px;    
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    #vandmidt {
+        background-image: url(vand_midt.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: auto;
+        width: 100%;
+    }
+
+    #intro {
+        background-image: url(wcrens.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: auto;
+        width: 100%;
+    }
+
+    #anmeldelser {
+      background-image: url(vand_midt.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: auto;
+         padding-top: 50px;
+        padding-bottom: 80px;
+    }
+
+    #vandlås {
+        background-image: url(vandlås_ny.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: auto;
+        width: 100%;
+    }
+
+    #duft {
+         background-image: url(vand_midt.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: auto;
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #svanemærket {
+        background-image: url(natur.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: auto;
+        width: 100%;
+    }
+
+    #vandslut {
+        background-image: url(vand_bund.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: auto;
+        width: 100%;
+        padding-top: 80px;
+        padding-bottom: 40px;  
+    }
+
+    #footer {
+        height: 150px;
+        background-color: #878787;
+        padding-top: 20px;
+    }
+
+    #footer p {
+        text-align: center;
+        color: white;
+        font-size: 13px;
+    }
+
+    .intro_text {
+        background-color: white;
+        opacity: 0.9;
+        margin-left: 50%;
+        height: 100%; 
+        padding-top: 80px; 
+        padding-bottom: 100px;
+    }
+
+    .vandlås_text {
+        background-color: white;
+        opacity: 0.9;
+        margin-right: 50%;
+        height: 100%; 
+        padding-top: 80px; 
+        padding-bottom: 100px;
+    }
+
+
+    .natur_text {
+        background-color: white;
+        opacity: 0.9;
+        height: 100%;
+        background-position: top;
+        margin-left: 50%;
+        padding-top: 80px; 
+        padding-bottom: 100px;
+    }
+    .img {
+        margin-left: 40%;
+    }
+
+    .marine_text {
+       background-color: black;
+        opacity: 0.7;
+        height: auto;
+        background-position: top; 
+        text-align: center; 
+        padding-top: 80px; 
+        padding-bottom: 100px;
+    }
+
+    .anmeldelser_text {
+        background-color: black;
+        opacity: 0.7;
+        height: auto;
+        background-position: top;  
+        text-align: center;
+        padding-top: 80px; 
+        padding-bottom: 100px;
+    }
+
+    .anmeldelser_text p {
+        margin: 50px 350px 50px 350px;
+        text-align: center;
+    }
+
+    .marine_text p {
+        margin: 50px 350px 50px 350px;
+        text-align: center;
+    }
+
+    .logo {
+        margin: 10px 40px 10px 200px; 
+        float:left;
+    }
+
+    .vandlås_header {
+        position: absolute;
+        margin-left: 40%;
+        margin-right: 60%;
+        margin-top: -5px;   
+        z-index: 1;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
